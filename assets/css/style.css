@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body {
   width: 100%;
   height: 768px;
@@ -103,6 +104,112 @@ footer {
   background: #777;
   text-align: center;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+=======
+body {
+  width: 100%;
+  height: 768px;
+}
+
+#header {
+	float: left;
+	padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+	margin-left: 40px;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+  background-color: #4aaaa5;
+
+}
+#about, #work, #contact {
+    height: 600px;
+}
+
+
+#nav ul li{
+    display: inline-block;
+    float: left;
+    padding-top: 50px;
+    float: right;
+    margin-right: 40px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #828282;
+    padding-left: 80px; 
+}
+
+#full {
+  clear: both;
+  width: 100%;
+  overflow: auto;
+  background: #eee;
+}
+#division {
+  float: right;
+  width: 270px;
+  margin-top: 20px;
+  margin-right: 40px;
+  padding: 20px;
+  background: white;
+  margin-left: 40px;
+  text-align: center;
+}
+
+.p2 {
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #4aaaa5;
+  font-weight: bold;
+}
+aside {
+  float: left;
+  width: 650px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  padding: 20px;
+  height: 450px;
+  background: #fff;
+  border: 1px solid #eee;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.p4 {
+  text-align: center;
+  color:#777777;
+  font-size: 20px;
+}
+.p1 {
+  text-align: left;
+  padding-left: 15px; 
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #4aaaa5;
+  font-weight: bold;
+  font-size: 30px;
+
+}
+
+.p5 {
+  text-align: bottom;
+}
+
+#bottom {
+  padding: 5px;
+  background-color: #4aaaa5;
+}
+footer {
+  clear: both;
+  padding: 20px;
+  background: #777;
+  text-align: center;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+>>>>>>> d2ee501b7fe6426d32bdff8a0f7f0769761010cb
 =======
 body {
   width: 100%;
